@@ -1,57 +1,368 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<meta
-			name="viewport"
-			content="width=device-width, initial-scale=1, shrink-to-fit=no"
-		/>
-		<title>Grid Template for Bootstrap</title>
-	</head>
+<html lang="vi">
 
-	<body>
-		<h1><img src="img/logo.jpg" /></h1>
-		<div>
-			<a href="#">Trang chủ</a>
-			<a href="#">Dịch vụ</a>
-			<a href="#">Về chúng tôi</a>
-			<a href="#">FAQ</a>
-			<a href="#">Liên hệ</a>
-		</div>
-		<hr />
-		<h2>FAQ</h2>
-		<hr />
-		<div>
-			<p>1. Tôi có thể trả tiền thông qua PayPal?</p>
-			<p>Được. Chúng tôi chấp nhận việc chi trả qua PayPal.</p>
-		</div>
-		<div>
-			<p>2. Tôi có thể hủy bỏ đặt hàng?</p>
-			<p>Được. Bạn có thể hủy bỏ đặt hàng bất khi nào bạn muốn.</p>
-		</div>
-		<div>
-			<p>3. Chính sách hoàn tiền như thế nào?</p>
-			<p>
-				Bạn có thể nhận được tiền hoàn trả 100% bất kể khi nào và vì bất kỳ lý
-				do gì.
-			</p>
-		</div>
-		<div>
-			<p>4. Làm thế nào để tôi có thể nhận được hóa đơn?</p>
-			<p>Bạn có thể nhận được hóa đơn thông qua email hoặc thư tín.</p>
-		</div>
-		<hr />
-		<footer>
-			<div>
-				<p>© Bản quyền thuộc về Công ty Du lịch Bụi.</p>
-				<ul>
-					<li><a href="#">Trang chủ</a></li>
-					<li><a href="#">Dịch vụ</a></li>
-					<li><a href="#">Về chúng tôi</a></li>
-					<li><a href="#">FAQ</a></li>
-					<li><a href="#">Liên hệ</a></li>
-				</ul>
-			</div>
-		</footer>
-	</body>
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>FAQ - Công ty Du lịch Bụi</title>
+
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    >
+</head>
+
+<body class="bg-light">
+
+<div class="container bg-white shadow-sm">
+
+    <!-- HEADER -->
+    <header class="py-3 border-bottom">
+
+        <div class="row align-items-center">
+
+            <div class="col-12 col-md-5 text-center text-md-start mb-3 mb-md-0">
+
+                <a href="index.html">
+
+                    <img
+                        src="img/logo.jpg"
+                        alt="Công ty Du lịch Bụi"
+                        class="img-fluid"
+                    >
+
+                </a>
+
+            </div>
+
+
+            <div class="col-12 col-md-7">
+
+                <nav class="navbar navbar-expand-md">
+
+                    <button
+                        class="navbar-toggler ms-auto"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#mainNavbar"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+
+                    <div
+                        class="collapse navbar-collapse justify-content-md-end"
+                        id="mainNavbar"
+                    >
+
+                        <ul class="navbar-nav">
+
+                            <li class="nav-item">
+                                <a
+                                    href="index.html"
+                                    class="nav-link fw-semibold px-3"
+                                >
+                                    Trang chủ
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a
+                                    href="service.html"
+                                    class="nav-link fw-semibold px-3"
+                                >
+                                    Dịch vụ
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a
+                                    href="about.html"
+                                    class="nav-link fw-semibold px-3"
+                                >
+                                    Về chúng tôi
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a
+                                    href="faq.html"
+                                    class="nav-link active fw-semibold px-3"
+                                >
+                                    FAQ
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a
+                                    href="contact.html"
+                                    class="nav-link fw-semibold px-3"
+                                >
+                                    Liên hệ
+                                </a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </nav>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- CONTENT -->
+    <main class="py-5">
+
+        <div class="text-center mb-5">
+
+            <h2 class="fw-bold text-primary">
+                Câu hỏi thường gặp
+            </h2>
+
+            <p class="text-secondary">
+                Một số câu hỏi và giải đáp dành cho khách hàng
+            </p>
+
+        </div>
+
+
+        <div
+            class="accordion shadow-sm"
+            id="faqAccordion"
+        >
+
+
+            <!-- FAQ 1 -->
+
+            <div class="accordion-item">
+
+                <h2 class="accordion-header">
+
+                    <button
+                        class="accordion-button fw-semibold"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#faqOne"
+                    >
+
+                        1. Tôi có thể trả tiền thông qua PayPal?
+
+                    </button>
+
+                </h2>
+
+
+                <div
+                    id="faqOne"
+                    class="accordion-collapse collapse show"
+                    data-bs-parent="#faqAccordion"
+                >
+
+                    <div class="accordion-body">
+
+                        Được. Chúng tôi chấp nhận việc chi trả qua PayPal.
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- FAQ 2 -->
+
+            <div class="accordion-item">
+
+                <h2 class="accordion-header">
+
+                    <button
+                        class="accordion-button collapsed fw-semibold"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#faqTwo"
+                    >
+
+                        2. Tôi có thể hủy bỏ đặt hàng?
+
+                    </button>
+
+                </h2>
+
+
+                <div
+                    id="faqTwo"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#faqAccordion"
+                >
+
+                    <div class="accordion-body">
+
+                        Được. Bạn có thể hủy bỏ đặt hàng bất khi nào bạn muốn.
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- FAQ 3 -->
+
+            <div class="accordion-item">
+
+                <h2 class="accordion-header">
+
+                    <button
+                        class="accordion-button collapsed fw-semibold"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#faqThree"
+                    >
+
+                        3. Chính sách hoàn tiền như thế nào?
+
+                    </button>
+
+                </h2>
+
+
+                <div
+                    id="faqThree"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#faqAccordion"
+                >
+
+                    <div class="accordion-body">
+
+                        Bạn có thể nhận được tiền hoàn trả 100% bất kể khi nào
+                        và vì bất kỳ lý do gì.
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- FAQ 4 -->
+
+            <div class="accordion-item">
+
+                <h2 class="accordion-header">
+
+                    <button
+                        class="accordion-button collapsed fw-semibold"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#faqFour"
+                    >
+
+                        4. Làm thế nào để tôi có thể nhận được hóa đơn?
+
+                    </button>
+
+                </h2>
+
+
+                <div
+                    id="faqFour"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#faqAccordion"
+                >
+
+                    <div class="accordion-body">
+
+                        Bạn có thể nhận được hóa đơn thông qua email hoặc thư tín.
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="border-top mt-4 pt-4 pb-3">
+
+        <div class="row g-4">
+
+            <div class="col-12 col-md-6">
+
+                <h5 class="fw-bold text-primary">
+                    Công ty Du lịch Bụi
+                </h5>
+
+                <p class="text-secondary mb-0">
+                    © Bản quyền thuộc về Công ty Du lịch Bụi.
+                </p>
+
+            </div>
+
+
+            <div class="col-12 col-md-6">
+
+                <ul class="nav justify-content-md-end">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            Trang chủ
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="service.html">
+                            Dịch vụ
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">
+                            Về chúng tôi
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="faq.html">
+                            FAQ
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">
+                            Liên hệ
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+</div>
+
+
+<script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+></script>
+
+</body>
+
 </html>

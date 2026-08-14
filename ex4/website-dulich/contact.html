@@ -1,84 +1,366 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<meta
-			name="viewport"
-			content="width=device-width, initial-scale=1, shrink-to-fit=no"
-		/>
-		<title>Grid Template for Bootstrap</title>
-	</head>
+<html lang="vi">
 
-	<body>
-		<h1><img src="img/logo.jpg" /></h1>
-		<div>
-			<a href="#">Trang chủ</a>
-			<a href="#">Dịch vụ</a>
-			<a href="#">Về chúng tôi</a>
-			<a href="#">FAQ</a>
-			<a href="#">Liên hệ</a>
-		</div>
-		<hr />
-		<div>
-			<h3>Liên hệ với chúng tôi!</h3>
-			<p>
-				Chúng tôi mong muốn lắng nghe từ bạn. Hãy liên hệ với chúng tôi và một
-				thành viên của chúng tôi sẽ liên lạc với bạn trong thời gian sớm nhất.
-				Chúng tôi yêu thích việc nhận được email của bạn mỗi ngày
-				<em>mỗi ngày</em>.
-			</p>
-			<form>
-				<label for="name">Tên của bạn</label>
-				<input
-					type="text"
-					placeholder="Tên của bạn"
-				/>
-				<label for="email">Email của bạn</label>
-				<input
-					type="email"
-					placeholder="Email của bạn"
-				/>
-				<label>Nội dung</label>
-				<textarea rows="3"></textarea>
-			</form>
-		</div>
-		<div>
-			<h5>Bản đồ</h5>
-			<p>
-				<a href="#">
-					<iframe
-						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15729855.42909206!2d96.7382165931671!3d15.735434000981483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31157a4d736a1e5f%3A0xb03bb0c9e2fe62be!2zVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1445179448264"
-						width="200"
-						height="200"
-						frameborder="0"
-						style="border: 0"
-						scrolling="no"
-						marginheight="0"
-						marginwidth="0"
-					></iframe>
-					<br />
-				</a>
-				<br />
-				<a href="#">Xem bản đồ</a>
-			</p>
-			<p>
-				Đại chỉ 1.
-				<br />
-				Địa chỉ 2.
-			</p>
-		</div>
-		<hr />
-		<footer>
-			<div>
-				<p>© Bản quyền thuộc về Công ty Du lịch Bụi.</p>
-				<ul>
-					<li><a href="#">Trang chủ</a></li>
-					<li><a href="#">Dịch vụ</a></li>
-					<li><a href="#">Về chúng tôi</a></li>
-					<li><a href="#">FAQ</a></li>
-					<li><a href="#">Liên hệ</a></li>
-				</ul>
-			</div>
-		</footer>
-	</body>
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Liên hệ - Công ty Du lịch Bụi</title>
+
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    >
+</head>
+
+<body class="bg-light">
+
+<div class="container bg-white shadow-sm">
+
+    <!-- HEADER -->
+    <header class="py-3 border-bottom">
+
+        <div class="row align-items-center">
+
+            <div class="col-12 col-md-5 text-center text-md-start mb-3 mb-md-0">
+
+                <a href="index.html">
+
+                    <img
+                        src="img/logo.jpg"
+                        alt="Công ty Du lịch Bụi"
+                        class="img-fluid"
+                    >
+
+                </a>
+
+            </div>
+
+
+            <div class="col-12 col-md-7">
+
+                <nav class="navbar navbar-expand-md">
+
+                    <button
+                        class="navbar-toggler ms-auto"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#mainNavbar"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+
+                    <div
+                        class="collapse navbar-collapse justify-content-md-end"
+                        id="mainNavbar"
+                    >
+
+                        <ul class="navbar-nav">
+
+                            <li class="nav-item">
+                                <a
+                                    href="index.html"
+                                    class="nav-link fw-semibold px-3"
+                                >
+                                    Trang chủ
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a
+                                    href="service.html"
+                                    class="nav-link fw-semibold px-3"
+                                >
+                                    Dịch vụ
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a
+                                    href="about.html"
+                                    class="nav-link fw-semibold px-3"
+                                >
+                                    Về chúng tôi
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a
+                                    href="faq.html"
+                                    class="nav-link fw-semibold px-3"
+                                >
+                                    FAQ
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a
+                                    href="contact.html"
+                                    class="nav-link active fw-semibold px-3"
+                                >
+                                    Liên hệ
+                                </a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </nav>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- CONTENT -->
+    <main class="py-5">
+
+        <div class="text-center mb-5">
+
+            <h2 class="fw-bold text-primary">
+                Liên hệ với chúng tôi
+            </h2>
+
+            <p class="text-secondary">
+                Chúng tôi mong muốn lắng nghe từ bạn.
+            </p>
+
+        </div>
+
+
+        <div class="row g-5">
+
+
+            <!-- FORM -->
+
+            <div class="col-12 col-lg-8">
+
+                <div class="card border-0 shadow-sm">
+
+                    <div class="card-body p-4">
+
+                        <h4 class="fw-bold mb-4">
+                            Gửi tin nhắn
+                        </h4>
+
+
+                        <form>
+
+
+                            <!-- TÊN -->
+
+                            <div class="mb-3">
+
+                                <label
+                                    for="name"
+                                    class="form-label fw-semibold"
+                                >
+                                    Tên của bạn
+                                </label>
+
+                                <input
+                                    type="text"
+                                    id="name"
+                                    class="form-control"
+                                    placeholder="Tên của bạn"
+                                >
+
+                            </div>
+
+
+                            <!-- EMAIL -->
+
+                            <div class="mb-3">
+
+                                <label
+                                    for="email"
+                                    class="form-label fw-semibold"
+                                >
+                                    Email của bạn
+                                </label>
+
+                                <input
+                                    type="email"
+                                    id="email"
+                                    class="form-control"
+                                    placeholder="Email của bạn"
+                                >
+
+                            </div>
+
+
+                            <!-- NỘI DUNG -->
+
+                            <div class="mb-3">
+
+                                <label
+                                    for="content"
+                                    class="form-label fw-semibold"
+                                >
+                                    Nội dung
+                                </label>
+
+                                <textarea
+                                    id="content"
+                                    rows="5"
+                                    class="form-control"
+                                    placeholder="Nhập nội dung..."
+                                ></textarea>
+
+                            </div>
+
+
+                            <button
+                                type="submit"
+                                class="btn btn-primary px-4"
+                            >
+                                Gửi
+                            </button>
+
+
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- THÔNG TIN -->
+
+            <div class="col-12 col-lg-4">
+
+                <div class="card border-0 shadow-sm h-100">
+
+                    <div class="card-body p-4">
+
+                        <h4 class="fw-bold text-primary mb-4">
+                            Thông tin liên hệ
+                        </h4>
+
+
+                        <p>
+                            <strong>Địa chỉ:</strong><br>
+                            Địa chỉ 1.<br>
+                            Địa chỉ 2.
+                        </p>
+
+
+                        <p>
+                            <strong>Email:</strong><br>
+                            example@email.com
+                        </p>
+
+
+                        <p>
+                            <strong>Điện thoại:</strong><br>
+                            0123 456 789
+                        </p>
+
+
+                        <h5 class="fw-bold mt-4 mb-3">
+                            Bản đồ
+                        </h5>
+
+
+                        <div class="ratio ratio-4x3">
+
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15729855.42909206!2d96.7382165931671!3d15.735434000981483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31157a4d736a1e5f%3A0xb03bb0c9e2fe62be!2zVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1445179448264"
+                                loading="lazy"
+                                title="Bản đồ"
+                            ></iframe>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="border-top mt-4 pt-4 pb-3">
+
+        <div class="row g-4">
+
+            <div class="col-12 col-md-6">
+
+                <h5 class="fw-bold text-primary">
+                    Công ty Du lịch Bụi
+                </h5>
+
+                <p class="text-secondary mb-0">
+                    © Bản quyền thuộc về Công ty Du lịch Bụi.
+                </p>
+
+            </div>
+
+
+            <div class="col-12 col-md-6">
+
+                <ul class="nav justify-content-md-end">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            Trang chủ
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="service.html">
+                            Dịch vụ
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">
+                            Về chúng tôi
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="faq.html">
+                            FAQ
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">
+                            Liên hệ
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+</div>
+
+
+<script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+></script>
+
+</body>
+
 </html>
